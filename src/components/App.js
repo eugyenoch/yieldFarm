@@ -50,7 +50,7 @@ class App extends Component {
     const accounts = await web3.eth.getAccounts();
     this.setState({ account: accounts[0] });
     this.setState({
-      tokenAddress: "0xa36085F69e2889c224210F603D836748e7dC0088",
+      tokenAddress: "0x51d87d1ed4052492b14db4fbd1fa6395c6dcb4ea",
     });
     this.setState({ image: chainlink });
     this.setState({ tokenName: "LINK" });
@@ -78,7 +78,7 @@ class App extends Component {
         .call();
       this.setState({ dappTokenBalance: dappTokenBalance.toString() });
     } else {
-      window.alert("DappToken contract not deployed to detected network.");
+      window.alert("VecksToken contract not deployed to detected network.");
     }
 
     // Load TokenFarm
