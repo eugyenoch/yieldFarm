@@ -17,7 +17,7 @@ class Main extends Component {
           <tbody>
             <tr>
               <td>
-                {window.web3.utils.fromWei(this.props.stakingBalance, "Ether")}{" "}
+                {window.web3.utils.fromWei(this.props.stakingBalance, "BNB")}{" "}
                 {this.props.tokenName}
               </td>
               <td>
@@ -39,7 +39,7 @@ class Main extends Component {
                 event.preventDefault();
                 let amount;
                 amount = this.input.value.toString();
-                amount = window.web3.utils.toWei(amount, "Ether");
+                amount = window.web3.utils.toWei(amount, "BNB");
                 this.props.stakeTokens(amount, this.props.tokenAddress);
               }}
             >
@@ -48,7 +48,7 @@ class Main extends Component {
                   <b>Stake Tokens</b>
                 </label>
                 <span className="float-right text-muted">
-                  {window.web3.utils.fromWei(this.props.erc20Balance, "Ether")}
+                  {window.web3.utils.fromWei(this.props.erc20Balance, "BNB")}
                 </span>
               </div>
               <div className="input-group mb-4">
