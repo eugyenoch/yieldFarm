@@ -1,6 +1,6 @@
-# chainlink_defi
+# yieldfarm
 
-This repo allows you to stake your FAU/LINK/DAPP or any accepted ERC20 and receive DAPP token as a reward (and can do yeild farming). It gets the Kovan price feed of the ERC with ETH to calculate value. 
+This repo allows you to stake your token and receive custom token as a reward (and can do yeild farming). It gets the Kovan price feed of the ERC with ETH to calculate value. 
 
 To get started clone this repo.
 
