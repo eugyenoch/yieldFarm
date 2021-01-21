@@ -79,7 +79,7 @@ class Main extends Component {
                     onClick={(event) => {
                       event.preventDefault();
                       this.props.changeToken(
-                        "0x9EA8d6272B724AfB813A9E7C4eaF07C7aF4FE996",
+                        "0x51d87d1ed4052492b14db4fbd1fa6395c6dcb4ea",
                         "VCKT",
                         Vecks Token
                       );
