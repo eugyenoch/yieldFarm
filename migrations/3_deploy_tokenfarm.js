@@ -8,7 +8,7 @@ module.exports = async function(deployer, network, accounts) {
   const tokenFarm = await TokenFarm.deployed();
   await dappToken.transfer(tokenFarm.address, "10000000000000000000000");
 
-  if (network.startsWith("kovan") || network.startsWith("live") || network.startsWith("Binance") || network.startsWith("Ethereum") || network.startsWith("BSC")) {
+  if (network.startsWith("kovan") || network.startsWith("live") || network.startsWith("Binance") || network.startsWith("Ethereum") || network.startsWith("BSC") || network.startsWith("testnet") || network.startsWith("Testnet")) {
     // LINK Token address
     await tokenFarm.addAllowedTokens(
       "0x9EA8d6272B724AfB813A9E7C4eaF07C7aF4FE996"
