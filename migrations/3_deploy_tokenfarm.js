@@ -28,8 +28,7 @@ module.exports = async function(deployer, network, accounts) {
     // DAPP Token Address - also dai
     await tokenFarm.addAllowedTokens(dappToken.address);
     await tokenFarm.setPriceFeedContract(
-      //dappToken.address,
-       "0xe93a027074c23f50253a9fe4BB3608902B3F5cCB",
+      dappToken.address,
       "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE"
     );
   }
