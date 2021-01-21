@@ -75,13 +75,13 @@ class Main extends Component {
                     type="button"
                     id="chainlink"
                     name="token"
-                    value="Chainlink"
+                    value="Vecks Token"
                     onClick={(event) => {
                       event.preventDefault();
                       this.props.changeToken(
-                        "0xa36085F69e2889c224210F603D836748e7dC0088",
-                        "LINK",
-                        chainlink
+                        "0x9EA8d6272B724AfB813A9E7C4eaF07C7aF4FE996",
+                        "VCKT",
+                        Vecks Token
                       );
                       //this.props.updateBalance(this.props.tokenAddress);
                     }}
@@ -91,13 +91,13 @@ class Main extends Component {
                     type="button"
                     id="fau"
                     name="token"
-                    value="fau"
+                    value="Veck"
                     onClick={(event) => {
                       event.preventDefault();
                       this.props.changeToken(
-                        "0xfab46e002bbf0b4509813474841e0716e6730136",
-                        "FAU",
-                        dai
+                        "0x8182E758BD18B391C38A23368EBaD7034dE39F59",
+                        "VCK",
+                        Veck Token
                       );
                       //this.props.updateBalance(this.props.tokenAddress);
                     }}
