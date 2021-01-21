@@ -190,7 +190,7 @@ class App extends Component {
             >
               <div className="content mr-auto ml-auto">
                 <a
-                  href="https://alphachain.io"
+                  href="https://#0"
                   target="_blank"
                   rel="noopener noreferrer"
                 ></a>
