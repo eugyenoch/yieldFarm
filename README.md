@@ -1,6 +1,6 @@
 # yieldfarm
 
-This repo allows you to stake your token and receive custom token as a reward (and can do yeild farming). It gets the Kovan price feed of the ERC with ETH to calculate value. 
+This repo contains code that allows you to stake your token and receive custom token as a reward (and can do yield farming). It gets the Kovan price feed of the ERC with ETH to calculate value. 
 
 To get started clone this repo.
 
